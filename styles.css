@@ -112,15 +112,28 @@ header {
     background: linear-gradient(
         90deg,
       rgba(255,127,80,.3),
-      rgba(15,76,129,1)10% 90%,
+      rgba(15,76,129,.9)10% 90%,
       rgba(255,127,80,.3)
     );
-    opacity: .9;
     border-radius: 10px;
     width: 70%;
     border-top: 5px solid rgba(255,127,80,.5);
     border-bottom: 5px solid rgba(255,127,80,.5);
 }
+
+.skills-div {
+  background: linear-gradient(
+        90deg,
+      rgba(255,127,80,.3),
+      rgba(15,76,129,1)10% 90%,
+      rgba(255,127,80,.3)
+    );
+    border-radius: 10px;
+    width: 50%;
+    border-top: 5px solid rgba(255,127,80,.5);
+    border-bottom: 5px solid rgba(255,127,80,.5);
+}
+
 
 h1,
 .web,
@@ -181,7 +194,7 @@ h3 {
 }
 
 .back-pic > p {
-  color: rgba(0,0,0,1);
+  color: rgba(192,192,192,.9);
   padding: 20px 20px;
   font-size: larger;
 }
