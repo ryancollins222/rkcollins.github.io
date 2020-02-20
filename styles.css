@@ -40,8 +40,8 @@ header {
   ),
   url(forest.jpg)center/cover no-repeat;
   background-attachment: fixed;
-  box-shadow: 0 0 10px 5px black ;
-  width: 85%;
+  box-shadow: 0 0 10px 10px black ;
+  width: 75%;
   height: 100%;
 }
 
@@ -85,15 +85,14 @@ header {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 75%;
+  height: 100%;
   width: 90%;
   box-shadow: 0px 0px 5px 3px black;
 }
 
-/* .black-div {
-  height: 166px;
-  background: rgba(0,0,0,1);
-} */
+.win-div {
+  height: 70%;
+}
 
 .intro {
     background: linear-gradient(
