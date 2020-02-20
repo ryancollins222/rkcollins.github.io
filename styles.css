@@ -40,10 +40,12 @@ header {
   ),
   url(forest.jpg)center/cover no-repeat;
   background-attachment: fixed;
-  box-shadow: 0 0 8px 8px black inset;
+  box-shadow: 0 0 10px 5px black ;
   width: 85%;
   height: 100%;
 }
+
+
 
 .section-margin {
   padding-top: 166px;
@@ -64,18 +66,18 @@ header {
     url(brick.jpg)center/cover no-repeat;
     max-width: 100%;
     position: relative;
-  box-shadow: 0 0 8px 8px black inset;
+  box-shadow: 0 0 5px 3px black inset;
 }
 
 
 .ledge {
-  box-shadow: 0px 0px 20px 10px black;
+  box-shadow: 0px 0px 5px 5px black;
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
   max-height: 200px;
-  width: 100%;
+  width: 95%;
 }
 
 .win-img {
@@ -83,14 +85,15 @@ header {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 90%;
-  box-shadow: 0px 0px 20px 20px black;
+  height: 75%;
+  width: 90%;
+  box-shadow: 0px 0px 5px 3px black;
 }
 
-.black-div {
+/* .black-div {
   height: 166px;
   background: rgba(0,0,0,1);
-}
+} */
 
 .intro {
     background: linear-gradient(
