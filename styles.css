@@ -48,9 +48,18 @@ header {
 .about-div > p {
   color: rgba(0,0,0,1);
   font-size: 1.6rem;
-  width: 90%;
-  background: rgba(255,255,255,.2);
-  box-shadow: -5px -5px 10px 0px black;
+  width: 95%;
+  background: linear-gradient(
+    90deg,
+  rgba(255,127,80,.3),
+  rgba(15,76,129,.7)10% 90%,
+  rgba(255,127,80,.3)
+); 
+border-top: 5px solid rgba(255,127,80,.3);
+border-bottom: 5px solid rgba(255,127,80,.3);
+border-radius: 10px;
+  
+ /* box-shadow: -5px -5px 10px 0px black; */
 
 }
 .section-title {
