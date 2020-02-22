@@ -260,12 +260,6 @@ h2 {
   .ledge {
     width: 75%;
   }
-  video:hover {
-    transition: all 3s ease;
-    width: 125%;
-    height: 125%;
-    margin: auto;
-  }
 }
 
 @media (min-width: 992px) { 
