@@ -13,6 +13,15 @@ html,body
 
 }
 
+video {
+  width: 100%;
+  height: 100%;
+}
+
+.vid-div {
+  width: 90%;
+}
+
 html {
 	scroll-behavior: smooth;
 }
@@ -250,6 +259,12 @@ h2 {
   }
   .ledge {
     width: 75%;
+  }
+  video:hover {
+    transition: all 3s ease;
+    width: 125%;
+    height: 125%;
+    margin: auto;
   }
 }
 
