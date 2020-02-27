@@ -55,7 +55,7 @@ header {
 }
 
 .about-div > p {
-  color: rgba(0,0,0,1);
+  color: rgba(192,192,192,.9);
   /* font-size: 1.5rem; */
   width: 90%;
   background: 
