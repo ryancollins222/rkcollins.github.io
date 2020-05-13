@@ -86,8 +86,17 @@ h2 {
   margin: 1rem 0;
 }
 
-footer .title-underline {
+/* footer .title-underline {
   margin-bottom: 86px;
+} */
+
+footer i {
+  display: inline!important;
+  margin: 0 1rem;
+}
+
+footer i:hover {
+  cursor: pointer;
 }
 
 html {

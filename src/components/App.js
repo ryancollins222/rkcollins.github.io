@@ -4,6 +4,7 @@ import projects from '../data.json';
 // components
 import Header from './Header';
 import Main from './Main';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -11,11 +12,7 @@ function App() {
     <Container fluid>
       <Header />  
       <Main projects={projects}/>
-      <footer>
-        <div className="col">
-          <div className="title-underline"></div>
-        </div>
-      </footer>
+      <Footer />
     </Container> 
     </> 
   );
