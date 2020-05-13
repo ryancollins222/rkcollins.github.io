@@ -10,6 +10,8 @@ body {
   padding: 0px;
   overflow-x: hidden;
   background: white;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 .container-fluid,
