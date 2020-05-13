@@ -114,8 +114,8 @@ header {
     rgba(0, 123, 255, .3)
   );
   border-radius: 10px;
-  border-top: 5px solid rgba(0, 123, 255, .8);
-  border-bottom: 5px solid rgba(0, 123, 255, .8);
+  border-top: 2px solid rgba(0, 123, 255, 1);
+  border-bottom: 2px solid rgba(0, 123, 255, 1);
   /* opacity: .8; */
 }
 
