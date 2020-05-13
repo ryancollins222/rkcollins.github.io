@@ -1,0 +1,272 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  background: white;
+}
+
+.container-fluid,
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.about-div {
+  width: 100%;
+}
+
+.about-div > p {
+  color: rgba(192, 192, 192, 0.9);
+  /* font-size: 1.5rem; */
+  width: 90%;
+  background: rgba(15, 76, 129, 0.7);
+  /* border-top: 3px solid rgba(255,127,80,.3); */
+  /* border-bottom: 3px solid rgba(255,127,80,.3); */
+  border-radius: 10px;
+  /* text-shadow: -1px -1px rgba(192,192,192,.3); */
+  padding: 20px 20px;
+}
+
+body {
+  /* letter-spacing: 0.2rem; */
+  background-color: black;
+}
+
+button:focus {
+  outline: none;
+}
+
+.back-pic > p,
+h2 {
+  color: rgba(192, 192, 192, 0.9);
+  padding: 20px 20px;
+}
+
+.blue-line {
+  width: 50px;
+  box-shadow: 0 0px 3px 3px rgba(15, 76, 129, 0.7);
+  margin: 3px 0 0;
+}
+
+.blue {
+  width: 50%;
+  box-shadow: 0 0px 5px 3px rgba(255, 127, 80, 0.4);
+  margin: 0 auto 30px;
+}
+
+.blank-col {
+  margin-top: 260px;
+}
+
+.canvas {
+  background: linear-gradient(90deg, rgba(255, 127, 80, 0.3), rgba(15, 76, 129, 0.9) 10% 90%, rgba(255, 127, 80, 0.3));
+  border-radius: 10px;
+  width: 70%;
+  border-top: 5px solid rgba(255, 127, 80, 0.5);
+  border-bottom: 5px solid rgba(255, 127, 80, 0.5);
+  text-align: center;
+}
+
+.close {
+  margin: -1rem!important;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+footer .title-underline {
+  margin-bottom: 86px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+}
+
+#headshot {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  opacity: .8;
+  margin-top: 1rem;
+}
+/* rgb(0, 123, 255) */
+.headshot-col {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 123, 255, .3),
+    rgba(255,255,255,.8)2% 98%,
+    rgba(0, 123, 255, .3)
+  );
+  border-radius: 10px;
+  border-top: 5px solid rgba(0, 123, 255, .8);
+  border-bottom: 5px solid rgba(0, 123, 255, .8);
+  /* opacity: .8; */
+}
+
+.card {
+  border-top: 2px solid rgba(0, 123, 255, 1);
+  border-bottom: 2px solid rgba(0, 123, 255, 1);
+  opacity: .9;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.header-padding {
+  padding-top: 74px;
+  position: fixed;
+  z-index: 1;
+  min-width: 100%;
+  background-color: black;
+  opacity: .8;
+}
+
+h1,
+h2,
+h6,
+nav a {
+  letter-spacing: .2rem;
+}
+
+
+h1,
+h6 {
+  color: rgba(192, 192, 192, 0.9);
+  /* font-family: 'Permanent Marker', cursive; */
+  margin: 0;
+}
+
+i,
+h3 {
+  color: black;
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+}
+
+#line-icon {
+  text-align: center;
+  padding: 10px;
+}
+#line-icon i {
+  margin: 0;
+}
+
+.modal-body img{
+  max-width: 100%;
+  height: auto;
+  margin: 1rem auto;
+}
+
+.modal-body ul {
+  list-style-type: disc;
+}
+.nav-link,
+#line-icon i {
+  color: rgba(192, 192, 192, 0.9);
+}
+
+nav {
+  background-color: rgb(0,0,0);
+}
+
+.name {
+  margin: 1rem 0;
+}
+
+.section-title {
+  background: rgba(0, 0, 0, 0.7);
+  /* width: 12rem; */
+  height: 4rem;
+  border-radius: 50px 5px;
+  border-left: 3px solid rgba(255, 127, 80, 0.5);
+  border-right: 3px solid rgba(255, 127, 80, 0.5);
+  text-align: center;
+  margin: 164px auto 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+#about h6 {
+  color:black;
+  margin: 1rem 0;
+}
+
+#skills li {
+  /* color: white; */
+  padding-top: .2rem;
+  /* text-decoration:  */
+  margin-left: 3rem;
+}
+
+#skills li:before {
+  content: '✔	';
+  background-color: #007bff;
+  margin-right: 1rem;
+}
+
+.show {
+  height: 1000px;
+}
+.title-underline {
+  height: 1px;
+  margin: 0 auto;
+  background: linear-gradient(90deg, coral, #0f4c81 25% 75%, coral);
+  min-width: 60%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.underline {
+  height: 1px;
+  margin: 3rem auto;
+  background: linear-gradient(90deg, coral, #0f4c81 30% 70%, coral);
+  width: 60%;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 0px 5px 3px black;
+}
+
+.vid-div {
+  width: 90%;
+}
+
+.win-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 90%;
+  width: 90%;
+  box-shadow: 0px 0px 5px 3px black;
+}
+
+.win-div {
+  height: 80%;
+}
+
+/*# sourceMappingURL=style.css.map */
