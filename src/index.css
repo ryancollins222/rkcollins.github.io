@@ -224,7 +224,7 @@ nav {
   /* color: white; */
   padding-top: .2rem;
   /* text-decoration:  */
-  margin-left: 3rem;
+  /* margin-left: 3rem; */
 }
 
 #skills li:before {
@@ -245,8 +245,7 @@ nav {
 
 ul {
   list-style: none;
-  display: flex;
-  flex-direction: column;
+  margin: 0 4rem;
 }
 
 .underline {
@@ -280,4 +279,8 @@ video {
   height: 80%;
 }
 
-/*# sourceMappingURL=style.css.map */
+@media (min-width: 768px) {
+  ul {
+    margin: 0 auto;
+  }
+}

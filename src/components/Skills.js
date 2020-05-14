@@ -12,18 +12,26 @@ let Skills = () => {
       <Col xs={12}>
         <div className="underline"></div>
       </Col>
-      <Col xs={10} lg={8} className="headshot-col mx-auto">
+      <Col xs={12} md={6} className="text-secondary d-flex ">
         <ul>
           <li>HTML</li>
           <li>CSS | Bootstrap</li>
           <li>JavaScript | Node | Express</li>
           <li>React | React Bootstrap</li>
           <li>Vue.js</li>
+          <li>Responsive Design</li>
+          <li>Axios</li>
+        </ul>
+      </Col>
+      <Col xs={12} md={6} className="text-secondary d-flex ">
+        <ul>
           <li>Python | Django</li>
           <li>JSON</li>
           <li>VS Code</li>
           <li>Github | Github Desktop</li>
           <li>Pug</li>
+          <li>NPM</li>
+          <li>SQL/SQLite</li>
         </ul>
       </Col>
     </Row>
