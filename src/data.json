@@ -13,7 +13,7 @@
       "id": 7,
       "project_name": "MyJam",
       "description": "Concert finder app using TicketMaster API and Google Maps API.  Users can create an account, which allows them to be able to post their own events in the 'Locals' concert section.  *Not currently deployed.",
-      "technologies": ["HTML", "CSS | Boostrap", "JavaScript | Vue", "Python | Django", "VS Code", "Github"],
+      "technologies": ["HTML", "CSS | Bootstrap", "JavaScript | Vue", "Python | Django", "VS Code", "Github"],
       "live_link": "",
       "github_link": "",
       "image_urls": ["/imgs/myjam.jpg", "/imgs/myjam2.jpg"]
@@ -22,9 +22,9 @@
       "id": 8,
       "project_name": "Blakely Studio",
       "description": "New React based website for Blakely Studio.  I play guitar with these folks from time to time.  *Currently in production.",
-      "technologies": ["HTML", "CSS | Boostrap", "JavaScript | React", "VS Code", "Github"],
+      "technologies": ["HTML", "CSS | Bootstrap", "JavaScript | React", "VS Code", "Github"],
       "live_link": "",
-      "github_link": "",
+      "github_link": "https://github.com/ryancollins222/blakely_studio",
       "image_urls": ["/imgs/blakely_studio1.jpg", "/imgs/blakely_studio2.jpg"]
     },
     {

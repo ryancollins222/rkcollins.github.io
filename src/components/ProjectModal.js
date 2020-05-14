@@ -45,8 +45,8 @@ let ProjectModal = (props) => {
       </Modal.Body>
       <Modal.Footer>
         <div className="mr-auto modal-buttons">
-          <Button href={project.live_link}  target="_blank" className="mr-3" variant="outline-success" style={{display: project.live_link ? "inline-block" : "none"}}>Live Demo</Button>
-          <Button href={project.github_link}  target="_blank" variant="outline-dark" style={{display: project.github_link ? "inline-block" : "none"}}>Github Repo</Button>
+          <Button href={project.live_link}  target="_blank" rel="noopener" className="mr-3" variant="outline-success" style={{display: project.live_link ? "inline-block" : "none"}}>Live Demo</Button>
+          <Button href={project.github_link}  target="_blank" rel="noopener" variant="outline-dark" style={{display: project.github_link ? "inline-block" : "none"}}>Github Repo</Button>
         </div>
         <Button onClick={props.onHide}>Close</Button>
       </Modal.Footer>
